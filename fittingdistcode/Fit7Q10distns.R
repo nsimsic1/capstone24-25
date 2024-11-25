@@ -4,10 +4,10 @@ library(FAdist)
 library(FlowScreen)
 
 # set working directory
-setwd("D:/GoogleDrive/CE5500/Rcode")
+setwd("~/capstone24-25/")
 
 # load Colorado River daily flow data
-allQ = read.flows("../Data/ColoradoStateLine.csv")
+allQ = read.flows("~/capstone24-25/sampledata/ColoradoStateLine.csv")
 
 # convert it to a time series for FlowScreen
 allQ.ts = create.ts(allQ)
