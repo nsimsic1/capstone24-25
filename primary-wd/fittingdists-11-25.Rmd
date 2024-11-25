@@ -1,0 +1,9 @@
+```{r}
+#zipF <- file.choose()
+#outDir <- "~/capstone24-25/fittingdistcode"
+#unzip(zipF, exdir=outDir)
+```
+
+```{r}
+
+```
